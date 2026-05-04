@@ -3,6 +3,7 @@ name: Minha Primeira Linha de Montagem
 on:
   push:
     branches: [ main ]
+    
 jobs:
    build-e-teste:
     runs-on: ubuntu-latest
@@ -16,4 +17,3 @@ jobs:
 
        - name: 3. Estação de Teste (Controle de Qualidade)
          run: echo "Rodando os testes automatizados... Verificando se a porta abre e fecha!"
-
